@@ -16,6 +16,9 @@ export default {
 		},
 	  },
   	extend: {
+		backgroundImage: {
+			"hero-image": "url('/car.jpg')"
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

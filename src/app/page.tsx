@@ -1,9 +1,14 @@
+import Header from "@/components/header";
+import Hero from "@/components/hero";
+import Head from "next/head";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="container">
-      <h1>The new project</h1>
-    </main>
+   <>
+     <Header />
+     <Hero />
+   </>
+   
   );
 }
