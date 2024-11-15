@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/header";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 import Hero from "@/components/hero";
+import Footer from "@/components/footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +32,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       > 
+        <Header />
         {children}
+        <Footer />
         <TailwindIndicator />
       </body>
     </html>

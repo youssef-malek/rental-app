@@ -6,7 +6,7 @@ import Link from 'next/link'
 export default function Header
 () {
   return (
-    <header className='sticky top-0 w-full border-b'>
+    <header className='sticky top-0 w-full border-b bg-white'>
             <div className='h-14 container flex items-center'>
                 {/*desktop*/}
                 <MainNav />
