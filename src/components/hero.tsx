@@ -3,19 +3,19 @@ import React from "react";
 function Hero() {
   return (
     <section className="flex flex-col md:flex-row   h-screen  bg-cover bg-center text-white bg-hero-image rounded-xl mx-4">
-      <div className="text-center  px-4 w-1/2">
+      <div className="flex flex-col justify-center items-center text-center  px-4 ">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">
           Welcome to My Next.js Site
         </h1>
         <p className="text-lg md:text-xl mb-8">
           Your journey to learn web development starts here!
         </p>
-        <button className="px-6 py-3 text-lg bg-blue-500 hover:bg-blue-700 rounded-lg transition duration-300">
+        <button className="px-6 py-3 text-lg w-full sm:w-1/3 bg-black hover:bg-yellow-100 hover:text-black rounded-lg transition duration-300">
           Get Started
         </button>
       </div>
-      <div className="flex-col  bg-yellow-50 p-4 rounded-lg w-1/2 h-full ">
-        <div className="">
+      <div className="flex items-center justify-center p-4 rounded-lg w-1/2 h-full ">
+        <div className="bg-purple-500 w-auto">
           <form className="max-w-sm mx-auto">
             <div className="mb-5">
               <label
